@@ -1,0 +1,46 @@
+body{
+    background: #74e8;
+}
+
+aside{
+    float: left;
+    background: white;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    color: #000000;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+
+}
+
+aside ul a {text-decoration: none}
+
+aside ul li:hover, aside ul a:hover{
+    color: #000000;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features{
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
